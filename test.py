@@ -11,7 +11,7 @@ def main(repo):
     Tests the Dockerfile. Builds it and clones the repository passed
     to the repo arguments.
     """
-    print(subprocess.call(['make setup']))
+    print(subprocess.call(['make', 'setup']))
     with Docker('depsy') as docker:
         print(docker.run('git clone {repo} cloned'.format(repo=repo)).out)
 
