@@ -1,4 +1,4 @@
-TAG=frigg-test-base
+TAG=depsy
 
 all: setup run
 
