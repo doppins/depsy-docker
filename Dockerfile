@@ -5,6 +5,8 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
+COPY files/gitconfig /root/.gitconfig
+
 RUN apt-get update && apt-get install -y \
   git \
   curl \
