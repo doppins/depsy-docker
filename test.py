@@ -12,7 +12,7 @@ def main(repo):
     to the repo arguments.
     """
     print(subprocess.call(['make', 'setup']))
-    with Docker('depsy') as docker:
+    with Docker('doppins') as docker:
         print(docker.run('git clone {repo} cloned'.format(repo=repo)).out)
 
 if __name__ == '__main__':

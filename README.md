@@ -1,7 +1,7 @@
-# depsy-docker
-Base docker image to be used with Depsy's workers.
+# doppins-docker
+Base docker image to be used with Doppins's workers.
 
-[![Build status](https://ci.frigg.io/depsy-versioning/depsy-docker.svg)](https://ci.frigg.io/depsy-versioning/depsy-docker/last/)
+[![Build status](https://ci.frigg.io/doppins-versioning/doppins-docker.svg)](https://ci.frigg.io/doppins-versioning/doppins-docker/last/)
 
 ## Tests
 ```
