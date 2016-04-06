@@ -1,3 +1,7 @@
 [user]
-    name  = Doppins
-    email = contact@doppins.com
+    name       = Doppins
+    email      = contact@doppins.com
+    signingkey = 0C976D41
+
+[commit]
+    gpgsign = true
